@@ -6,7 +6,7 @@ import jakarta.persistence.PersistenceContext;
 import jakarta.transaction.Transactional;
 import org.springframework.stereotype.Service;
 
-// Marks it as Spring bean , using which we can inject into other parts of application using " DI "
+// Marks it as Spring bean , using which we can inject into other parts of application using " DI " , as done in StudentController class using @autowired annotation
 @Service("studentServiceImpl") //this is the Bean ID
 public class StudentServiceImpl implements StudentService {
 
